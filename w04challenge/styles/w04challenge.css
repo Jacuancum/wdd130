@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 206, 231);
+}
+h1 {
+    color: white;
+    font-size: 50px;
+}
+h2 {
+    color: white;
+    font-size: 15px;
+}
+h3 {
+    color: white;
+}
+img {
+    max-width: 200px;
+}
+div {
+    left: 50%;
+}
