@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Trade+Winds&display=swap');
+
+h1 {
+    font-family: trade Winds;
+}
+h2, h4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p, .book, .join {
+    font-family: montserrat;
+}
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -6,12 +17,16 @@ nav a {
     text-align: center;
     color: #02364f;
     text-decoration: none;
+    padding: 35px;
+    font-family: montserrat;
 }
 h1 {
     text-align: center;
 }
 .home-title {
     color: #02364f;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     text-align: center;
@@ -23,11 +38,20 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 body {
     background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #a7edff;
@@ -37,34 +61,47 @@ nav a:hover {
     color: #ff931f;
 }
 .book, .join {
-    background-color: white;
+    background-color: #ff931f;
     color: #02364f;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 .book:hover, .join:hover {
     background-color: #02364f;
     color: #ff931f;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 #background {
     background-color: #23aed0;
     color: black;
 }
 .msg {
-    background-color: #a7edff;
-    color: #02364f;
+    background-color: #23aed0;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
-    color: #02364f;
+    color: white;
 }
-msg p {
-    color: #02364f;
+.msg p {
+    color: white;
+    padding-bottom: 15px;
 }
 footer {
-    background-color: #ff931f;
-    color: black;
+    background-color: #23aed0;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
-    color: #02364f;
+    color: white;
     text-decoration: none;
 }
 footer p {
@@ -75,7 +112,19 @@ footer a:hover {
 }
 .icon, .logo {
     width: 80px;
+    border-radius: 50%;
 }
 #hero-img {
     width: 100%;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+    width: 60px;
+}
+.card-img {
+    border: 10px solid#02364f;
+    width: 550px;
 }

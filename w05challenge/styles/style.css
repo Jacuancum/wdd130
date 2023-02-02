@@ -1,0 +1,30 @@
+div {
+    text-align: center;
+}
+.background img {
+    max-width: 1000px;
+    height: 500px;
+}
+div section {
+    box-sizing: border-box;
+    text-align: center;
+}
+section {
+    background-color: darkgray;
+    text-align: center;
+}
+section img {
+    border-radius: 50%;
+    height: 180px;
+    border: 15px solid rgb(68, 68, 68);
+    margin: 30px;
+    text-align: center;
+}
+.icon {
+    width: 1000px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
