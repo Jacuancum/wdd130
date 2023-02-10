@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Trade+Winds&display=swap');
 
 h1 {
-    font-family: trade Winds;
+    font-family: 'trade Winds', Arial, sans-serif;
 }
 h2, h4 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
 }
 p, .book, .join {
-    font-family: montserrat;
+    font-family: Montserrat, Arial, sans-serif;
 }
 #content {
     margin: 0 auto;
@@ -18,7 +18,7 @@ nav a {
     color: #02364f;
     text-decoration: none;
     padding: 35px;
-    font-family: montserrat;
+    font-family: montserrat, Arial, sans-serif;
 }
 h1 {
     text-align: center;
