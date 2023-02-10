@@ -4,7 +4,7 @@
   /* This is the parent of the activity 1 boxes. */
   display: grid;
   grid-template-rows: 1fr 2fr 2fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 250px 250px;
   gap: 20px;
   justify-items: center;
 }
@@ -69,7 +69,7 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 300px 300px;
   column-gap: 50px;
 }
 .red3 {
@@ -103,7 +103,7 @@
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 300px 300px;
   grid-template-rows: 1fr 1fr 1fr;
 }
 .red4 {
@@ -138,7 +138,7 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
-  
+  width: 700px;
 }
 .red5 {
   width: auto; 
