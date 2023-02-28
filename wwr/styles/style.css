@@ -203,7 +203,15 @@ footer .social img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 /*Page1 css end here then Page2 css start from blow*/
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Trade+Winds&display=swap');
+h5 {
+    font-family: 'trade Winds', Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-size: 35px;
+    color: #02364f;
+    text-shadow: #ff931f 1px 5px 10px;
+}
 
 
 
