@@ -57,6 +57,9 @@ h1, h2 {
 h4 {
     margin-top: 5px;
 }
+h1, h4 {
+    text-shadow: black 2px 5px 15px;
+}
 header {
     background-color: #a7edff;
     display: grid;
@@ -162,6 +165,7 @@ footer .social img {
 .card-img {
     border: 10px solid#02364f;
     width: 550px;
+    height: auto;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -198,6 +202,8 @@ footer .social img {
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
+/*Page1 css end here then Page2 css start from blow*/
+
 
 
 
