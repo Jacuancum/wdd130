@@ -35,7 +35,7 @@ header {
     margin-top: -300px;
 }
 #hero-img {
-    width: 100%;
+    width: 95%;
     grid-row: 2/3;
     z-index: -1;
 }
@@ -63,4 +63,16 @@ footer p {
     font-weight: bold;
     text-align: center;
     padding: 30px;
+}
+.topics {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infop {
+    font-size: 18px;
+    font-weight: normal;
+    width: 250px;
 }
