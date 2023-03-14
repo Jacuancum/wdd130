@@ -8,6 +8,14 @@ header {
     margin-top: auto;
     height: 100px;
     display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: roboto condensed, 'Courier New', monospace;
+    justify-content:left;
+    align-items: center;
+}
+header a {
+    padding-right: 20px;
 }
 .social img {
     width: 40px;
@@ -32,7 +40,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: -300px;
+    margin-top: -200px;
 }
 #hero-img {
     width: 95%;
@@ -50,12 +58,7 @@ header {
     width: 150px;
     border-radius: 50%;
 }
-.topics {
-    display: flex;
-}
-
-
-footer p {
+footer {
     font-family: roboto condensed, 'Courier New', monospace;
     background-color: #5d008f;
     color: white;
@@ -63,6 +66,11 @@ footer p {
     font-weight: bold;
     text-align: center;
     padding: 30px;
+}
+footer a {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .topics {
     font-size: 30px;
@@ -72,7 +80,11 @@ footer p {
     align-items: center;
 }
 .infop {
+    font-family: roboto condensed, 'Courier New', monospace;
     font-size: 18px;
     font-weight: normal;
     width: 250px;
+}
+p {
+    font-family: roboto condensed, 'Courier New', monospace;
 }
