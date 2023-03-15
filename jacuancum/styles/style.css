@@ -167,6 +167,7 @@ p {
     }
     .topics { 
         flex-direction: column;
+        align-items: center;
     }
     #background {
         display: none;
