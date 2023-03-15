@@ -69,6 +69,10 @@ nav {
     border-radius: 50%;
     margin-left: 25%;
 }
+.personalinfo {
+    text-align: right;
+}
+
 
 
 
@@ -90,18 +94,68 @@ footer a {
     padding-right: 20px;
 }
 .topics {
+    font-family: 'bebas neue', 'Courier New', monospace;
     font-size: 30px;
     font-weight: bold;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.infop {
+.info1 {
     font-family: roboto condensed, 'Courier New', monospace;
     font-size: 18px;
     font-weight: normal;
     width: 250px;
 }
+.info2 {
+    font-family: roboto condensed, 'Courier New', monospace;
+    font-size: 18px;
+    font-weight: normal;
+    width: 250px;
+}
+.info3 {
+    font-family: roboto condensed, 'Courier New', monospace;
+    font-size: 18px;
+    font-weight: normal;
+    width: 250px;
+}
+.the3topics {
+    color: #5d008f;
+}
 p {
     font-family: roboto condensed, 'Courier New', monospace;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    header {
+        height: auto;
+    }
+    nav, footer, {
+        flex-direction: column;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    .personalinfo {
+        display: none;
+    }
+    .topics { 
+        flex-direction: column;
+    }
+    #background {
+        display: none;
+    }
+    footer {
+        margin-top: 2px;
+    }
 }
