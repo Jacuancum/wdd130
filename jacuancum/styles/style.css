@@ -15,27 +15,31 @@ header {
     align-items: center;
 }
 header a {
-    padding-right: 20px;
-}
+    padding: 10px 20px;
+}    
 .social img {
     width: 40px;
-    padding: 10px;
-    margin-left: 10px;
-}
-.social {
-    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
 }
 .logo {
-    width: 80px;
+    width: 100px;
     border: #5d008f solid 5px;
-    align-items: center;
-    margin-left: 10px;
+    z-index: 1;
 }
 nav {
     display: flex;
     align-items: center;
     margin-right: 0;
-    margin-left:auto;
+    margin-left: auto;
+}
+.button:hover {
+    background-color: #5d008f;
+    color: #fdb321;
+}
+.footer-button:hover {
+    background-color: #fdb321;
+    color: #5d008f;
 }
 
 
@@ -72,6 +76,11 @@ nav {
 .personalinfo {
     text-align: right;
 }
+section .personalinfo p {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 
 
 
@@ -90,8 +99,7 @@ footer {
 }
 footer a {
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px;
 }
 .topics {
     font-family: 'bebas neue', 'Courier New', monospace;
@@ -108,6 +116,7 @@ footer a {
     width: 250px;
     padding: 0;
     margin: 0;
+    box-shadow: 5px 5px 5px #fdb321;
 }
 .info2 {
     font-family: roboto condensed, 'Courier New', monospace;
@@ -116,6 +125,7 @@ footer a {
     width: 250px;
     padding: 0;
     margin: 0;
+    box-shadow: 5px 5px 5px #fdb321;
 }
 .info3 {
     font-family: roboto condensed, 'Courier New', monospace;
@@ -124,9 +134,11 @@ footer a {
     width: 250px;
     padding: 0;
     margin: 0;
+    box-shadow: 5px 5px 5px #fdb321;
 }
 .the3topics {
     color: #5d008f;
+    transform: scale(1.1);
 }
 p {
     font-family: roboto condensed, 'Courier New', monospace;
@@ -153,7 +165,7 @@ p {
     header {
         height: auto;
     }
-    nav, footer, {
+    nav, footer {
         flex-direction: column;
     }
     #hero {
