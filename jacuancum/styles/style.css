@@ -15,7 +15,8 @@ header {
     align-items: center;
 }
 header a {
-    padding: 10px 20px;
+    padding: 10px 10px;
+    text-decoration: none;
 }    
 .social img {
     width: 40px;
