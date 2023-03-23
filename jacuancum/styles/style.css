@@ -168,8 +168,9 @@ p {
 .hobbies-grid {
     display: grid;
     grid-template-columns: 50px 1fr 1fr 50px;
-    grid-template-rows: 10px 1fr 1fr 1fr 1fr 20px;
+    grid-template-rows: 20px 1fr 1fr 1fr 1fr 20px;
     justify-items: center;
+    border: #fdb321 solid 5px;
 }
 .campingblock1 {
     grid-column: 2/3;
@@ -187,8 +188,18 @@ p {
     grid-column: 3/4;
     grid-row: 5/6;
 }
-.hobbiesp {
-    grid-column: 2/4;
+.hobbiesp1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: x-large;
+}
+.hobbiesp2 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    font-size: x-large;
+}
+.hobbiesp3 {
+    grid-column: 2/3;
     grid-row: 5/6;
     font-size: x-large;
 }
