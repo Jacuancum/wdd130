@@ -10,7 +10,7 @@ header {
     display: flex;
     font-size: 20px;
     font-weight: bold;
-    font-family: roboto condensed, 'Courier New', monospace;
+    font-family: 'roboto condensed', 'Courier New', monospace;
     justify-content:left;
     align-items: center;
 }
@@ -90,7 +90,7 @@ section .personalinfo p {
 
 /*-------------------------------------------------------------*/
 footer {
-    font-family: roboto condensed, 'Courier New', monospace;
+    font-family: 'roboto condensed', 'Courier New', monospace;
     background-color: #5d008f;
     color: white;
     font-size: 20px;
@@ -111,7 +111,7 @@ footer a {
     align-items: start;
 }
 .info1 {
-    font-family: roboto condensed, 'Courier New', monospace;
+    font-family: 'roboto condensed', 'Courier New', monospace;
     font-size: 18px;
     font-weight: normal;
     width: 250px;
@@ -120,7 +120,7 @@ footer a {
     box-shadow: 5px 5px 5px #fdb321;
 }
 .info2 {
-    font-family: roboto condensed, 'Courier New', monospace;
+    font-family: 'roboto condensed', 'Courier New', monospace;
     font-size: 18px;
     font-weight: normal;
     width: 250px;
@@ -129,7 +129,7 @@ footer a {
     box-shadow: 5px 5px 5px #fdb321;
 }
 .info3 {
-    font-family: roboto condensed, 'Courier New', monospace;
+    font-family: 'roboto condensed', 'Courier New', monospace;
     font-size: 18px;
     font-weight: normal;
     width: 250px;
@@ -141,8 +141,11 @@ footer a {
     color: #5d008f;
     transform: scale(1.1);
 }
+h2 {
+    font-family: 'roboto condensed', 'Courier New', monospace;
+}
 p {
-    font-family: roboto condensed, 'Courier New', monospace;
+    font-family: 'roboto condensed', 'Courier New', monospace;
 }
 .little-readmore {
     font-size: 14px;
@@ -150,7 +153,7 @@ p {
     margin-top: 0;
     padding-top: 0;
     color: black;
-    font-family: roboto condensed, 'Courier New', monospace;
+    font-family: 'roboto condensed', 'Courier New', monospace;
 }
 /*------*/
 #aboutme-grid {
@@ -158,7 +161,37 @@ p {
     grid-template-rows: 10px 1fr 1fr 1fr 1fr 10px;
 }
 
-
+/*--------------------------------------------------------------------*/
+.hobbiesimages {
+    width: 500px;
+}
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 50px;
+    grid-template-rows: 10px 1fr 1fr 1fr 1fr 20px;
+    justify-items: center;
+}
+.campingblock1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.campingblock2 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.handcraftblock1 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.handcraftblock2 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+.hobbiesp {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    font-size: x-large;
+}
 
 /*--------------------------------------------------------------------*/
 @media screen and (max-width: 900px) {
