@@ -101,6 +101,7 @@ footer {
 footer a {
     color: white;
     padding: 10px 20px;
+    text-decoration: none;
 }
 .topics {
     font-family: 'bebas neue', 'Courier New', monospace;
