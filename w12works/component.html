@@ -8,41 +8,30 @@
     <link rel="stylesheet" href="styles/style.css">
     <script src="styles/style.js"></script>
 </head>
-<body>
-    <!-- Slideshow container -->
-<div class="slideshow-container">
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="images/father-day-hand-drawing.jpg" style="width:100%">
-        <div class="text">A precious moment of a father</div>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Price</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
     </div>
-  
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="images/great-job-cartoon.jpg" style="width:100%">
-        <div class="text">Father is proud of his daughter</div>
+      
+    <!-- Use any element to open the sidenav -->
+    <span id="open" onclick="openNav()">OPEN</span>
+      
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+        <h1>
+            Oldest most complete Hebrew Bible goes on display in Israel before sale
+        </h1>
+        <img id="thebibleimage" src="images/the-oldest-bible.jpg" alt="the oldest bible">
+        <img id="thebibleimage" src="images/theoldestbiblecloseup.jpg" alt="the oldest bible">
+        <p>
+            BBC News
+            - By David Gritten
+        </p>
     </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="images/beautiful-architecture-building.jpg" style="width:100%">
-      <div class="text">A bright side</div>
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-  
-  <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-  
 </body>
 </html>
