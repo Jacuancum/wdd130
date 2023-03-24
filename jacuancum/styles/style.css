@@ -177,7 +177,7 @@ p {
     grid-column: 3/4;
     grid-row: 4/5;
 }
-#aboutme-p {
+.aboutmep {
     grid-column: 2/3;
     grid-row: 2/3;
     font-size: x-large;
@@ -192,8 +192,9 @@ p {
     grid-row: 4/5;
     font-size: x-large;
 }
-#aboutme-image1,#aboutme-image2,#aboutme-image3,#aboutme-image4 {
-    width: 600px;
+.aboutmep .aboutmep2 .aboutmep3
+#aboutme-image1, #aboutme-image2, #aboutme-image3, #aboutme-image4 {
+    width: 500px;
 }
 
 
