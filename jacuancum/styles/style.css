@@ -157,7 +157,8 @@ p {
     font-family: 'roboto condensed', 'Courier New', monospace;
 }
 
-#aboutme-grid {
+/*----------------------------------------------------------------*/
+.aboutme-grid {
     grid-template-columns: 50px 1fr 1fr 50px;
     grid-template-rows: 30px 1fr 1fr 1fr 20px;
     display: grid;
@@ -272,5 +273,15 @@ p {
     }
     footer {
         margin-top: 2px;
+    }
+    .hobbies-grid {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+    .aboutme-grid {
+        display: block;
+        padding: 20px;
+        text-align: center;
     }
 }
